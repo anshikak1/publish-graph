@@ -17,7 +17,7 @@ def run():
   plt.title('Number of Individuals in Each City')
   plt.xticks(rotation=45)  # Rotating x-axis labels for better readability
   plt.tight_layout()
-  plt.show()
+  st. pyplot(plt.show())
 
 if __name__ == "__main__":
     run()
